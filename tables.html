@@ -1,0 +1,27 @@
+Tables Exercise
+
+<script>
+var result = '    ';
+
+function buffer(val){
+     var buffer = ' ';
+     var pad = 4 - val;
+    while( pad-- > 0 )
+    buffer += ' ';
+    return buffer;
+}
+for(let i=1; i<=10; i++){
+    for (var j = 0; j<=10; j++) {
+        if(i == 0 && j > 0) {
+            result += '' + j + '' + buffer((j+'').length+2);
+        }
+        else if(j == 0 && i>0){
+            result += '' + i + '';
+        }
+        else if(i>0 && j>0){
+            result += buffer((i*j+'').length ) + i*j;
+        }
+    }
+    result += '\n'
+}
+</script>
