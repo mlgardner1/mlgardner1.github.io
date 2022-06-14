@@ -20,9 +20,8 @@ var focus = 0;
 function Run() {
   let img = document.getElementById('PacMan');
   let imgWidth = img.width;
-  pageWidth = window.innerWidth;
   focus = (focus + 1) % 2;
-  direction = checkPageBounds(direction, imgWidth, pos, null);
+  direction = checkPageBounds(direction, imgWidth, pos, window.innerWidth);
   img.src = pacArray[direction][focus];
   if (direction) {
     pos -= 20;
