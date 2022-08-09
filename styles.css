@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+nav {
+    font-family: 'Oxygen', sans-serif !important;
+    font-weight: 700;
+}
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(177, 242, 227); /*change color of links in drop down here*/
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: rgb(117, 96, 165);
+}
+
+.gridabout {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100px 200px 100px;
+    column-gap: 1em;
+}
+
+.gridcontact {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-gap: 1em;
+}
+
+body {
+    background-image: url('rainbowbackground.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+    margin-top: 50px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+aside {
+    margin-left: 15px;
+}
+
+footer {
+    position: fixed;
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgba(117, 96, 165, 0.29);
+}
+.indexfooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgba(117, 96, 165, 0.29);
+}
+
+.profileimg {
+    width: 300px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.card-text {
+    font-family: 'Bitter', serif;
+    font-size: 22px;
+    color: black;
+}
+
+
