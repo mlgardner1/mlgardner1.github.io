@@ -50,7 +50,7 @@ h1 {
     font-weight: 700;
     color: white;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 36px;
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -60,7 +60,7 @@ h2 {
     font-weight: 400;
     color: black;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 24px;
     margin-bottom: 50px;
 }
 
@@ -68,7 +68,7 @@ h3 {
     font-family: 'Oxygen', sans-serif;
     font-weight: 500;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 4;
@@ -99,20 +99,20 @@ footer {
     font-weight: 500;
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     grid-row-start: 3;
     grid-row-end: 4;
     background-color: rgba(117, 96, 165, 0.29);
 }
 .indexfooter {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     font-family: 'Oxygen', sans-serif;
     font-weight: 500;
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     background-color: rgba(117, 96, 165, 0.29);
 }
 
