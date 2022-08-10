@@ -5,6 +5,6 @@ This repository is a portfolio of my projects from the MIT xPro Professional Cer
 ## Roadmap
 In the future, I hope to add more Bootstrap capabilities and improve my use of CSS grids. I would also like to include links to live demonstrations of projects in addition to the code on GitHub. I plan to add more projects as the course progresses.
 ## Attribution
-The geometric background image is free for use without attribution under a Pixabay license. 
+The geometric background image is free for use without attribution under a Pixabay license. Contact form provided by Formspree.
 ## License
 This project utilizes an MIT License. For more information, see the "LICENSE" file. 
